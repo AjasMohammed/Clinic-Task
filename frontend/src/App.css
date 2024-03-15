@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+}
+label{
+  display: flex;
+  gap: 1rem;
+}
+.App div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+table{
+  border: 2px solid black;
+  border-collapse: collapse; 
+}
+tr{
+  border-top: 2px solid black;
+}
+td, th{
+  padding: 1rem;
+  border-inline: 2px solid black;
+}
